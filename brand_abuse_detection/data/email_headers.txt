@@ -1,0 +1,17 @@
+content-class: urn:content-classes:message
+Subject: Citi Warrants on $25 Million Funding
+Date: Thu, 3 Aug 2000 14:43:47 -0500
+MIME-Version: 1.0
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+Message-ID: <3989e793.87BDEEE2@tech.com>
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator: <3989e793.87BDEEE2@tech.com>
+Thread-Topic: Warrants on $25 Million Funding
+Thread-Index: AcHatCZUSkaLe0ajEdaelQACpYcy8A==
+From: "Microsoft_Support@ibм.com" <ceo_yahoo@yahoo.com.jp >
+To: "Bad_Guy_Broker" <bad_guy@fund.com
+Return-Path: CEO Good_Guy@tech.com
+Received: from mail.tech.com (mail.tech.com [201.10.20.152]) by hedgefund.fund.com (8.11.0/8.11.0) e73MfZ331592;
+Received: from webmail.tech.com (webmail.tech.com [10.27.30.190]) by mail.tech.com (Switch-2.0.1/Switch- 2.0.1)     ; Thu, 3 Aug 2000
+Received: from tech.com (ostrich.tech.com [10.27.20.190]) by webmail.tech.com (8.8.8+Sun/8.8.8) with ESMTP id RAA01318; Thu, 3 Aug 2000 14:41:31 -0500
