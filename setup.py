@@ -6,8 +6,8 @@ setup(
   description = 'Brand Abuse Detection',
   author = 'Emory Shyong',
   author_email = 'emory@clearedin.com',
-  url = 'https://bitbucket.org/clearedinpsl/phish-finder/src/GOL-290-brand-abuse-detection/src/be/phish-finder-python/brand_abuse_detection',  # use the URL to the github repo
-  download_url = 'https://bitbucket.org/clearedinpsl/phish-finder/src/GOL-290-brand-abuse-detection/src/be/phish-finder-python/brand_abuse_detection/archive/0.1.tar.gz', # I'll explain this in a second
-  keywords = ['brand', 'abuse', 'detection'], # arbitrary keywords
+  url = 'https://github.com/shyong1539/brand_abuse_detection',
+  download_url = 'https://github.com/shyong1539/brand_abuse_detection/archive/0.1.tar.gz',
+  keywords = ['brand', 'abuse', 'detection'],
   classifiers = [],
 )
