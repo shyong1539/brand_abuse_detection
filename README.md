@@ -15,47 +15,47 @@ object.  There are five suspicious factors:
 
 The output in json looks like the following:
 
-{
-    "Title": "Suspicious Matrix",
-    "factors": [
-        {
-            "category": "Suspicious subject",
-            "header": "Subject",
-            "reason": "Subject line contains citi, fund",
-            "text": "Citi Warrants on $25 Million Funding"
-        },
-        {
-            "category": "Suspicious Sender",
-            "header": "From & Return-Path",
-            "reason": "Sender has multiple email identities Microsoft_Support@ib\u043c.com Good_Guy@tech.com ceo_yahoo@yahoo.com.jp",
-            "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp > CEO Good_Guy@tech.com"
-        },
-        {
-            "category": "Suspicious Email",
-            "header": "From",
-            "reason": "Sender email has a combination of microsoft and support",
-            "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
-        },
-        {
-            "category": "Spoofed Domain",
-            "header": "From",
-            "reason": "ib\u043c.com is a spoof of ibm.com",
-            "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
-        },
-        {
-            "category": "Illicit Domain",
-            "header": "From",
-            "reason": "ib\u043c.com is not a legitimate Top Level Domain",
-            "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
-        },
-        {
-            "category": "Illicit Domain",
-            "header": "From",
-            "reason": "yahoo.com.jp is not a legitimate Top Level Domain",
-            "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
-        }
-    ]
-}
+    {
+        "Title": "Suspicious Matrix",
+        "factors": [
+            {
+                "category": "Suspicious subject",
+                "header": "Subject",
+                "reason": "Subject line contains citi, fund",
+                "text": "Citi Warrants on $25 Million Funding"
+            },
+            {
+                "category": "Suspicious Sender",
+                "header": "From & Return-Path",
+                "reason": "Sender has multiple email identities Microsoft_Support@ib\u043c.com Good_Guy@tech.com ceo_yahoo@yahoo.com.jp",
+                "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp > CEO Good_Guy@tech.com"
+            },
+            {
+                "category": "Suspicious Email",
+                "header": "From",
+                "reason": "Sender email has a combination of microsoft and support",
+                "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
+            },
+            {
+                "category": "Spoofed Domain",
+                "header": "From",
+                "reason": "ib\u043c.com is a spoof of ibm.com",
+                "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
+            },
+            {
+                "category": "Illicit Domain",
+                "header": "From",
+                "reason": "ib\u043c.com is not a legitimate Top Level Domain",
+                "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
+            },
+            {
+                "category": "Illicit Domain",
+                "header": "From",
+                "reason": "yahoo.com.jp is not a legitimate Top Level Domain",
+                "text": "\"Microsoft_Support@ib\u043c.com\" <ceo_yahoo@yahoo.com.jp >"
+            }
+        ]
+    }
 
 
 There is a main() in brand_abuse_detection.py that emulates the API (categorize_email).
